@@ -1,7 +1,7 @@
 import subprocess
 from os import remove
 def evaluateWork(fileName, name):
-    print("Evaulating " + fileName)
+    print("Evaluating: " + fileName)
     program = ""
     with open(fileName, "r") as progra:
         program = progra.read()
